@@ -63,10 +63,10 @@ Now both the `phoenix-event-display` and `phoenix-app` will start in development
 Run the following Docker command to start Phoenix locally using Docker.
 
 ```sh
-docker run -dp 80:80 9inpachi/phoenix
+docker run --detach --publish 4200:80 9inpachi/phoenix:2.14.0
 ```
 
-Access the app by navigating to [`http://localhost`](http://localhost) on the browser.
+Access the app by navigating to [`http://localhost/4200`](http://localhost/4200) on the browser.
 
 ## Documentation
 
